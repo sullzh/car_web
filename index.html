@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝宝的车车世界</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/carData.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">🏠 首页</a>
+            <a href="gallery.html" class="nav-link">📖 车辆百科</a>
+            <a href="game.html" class="nav-link">🎮 猜猜我是谁</a>
+        </div>
+    </nav>
+
+<div class="container">
+    <header class="page-header">
+        <h1 class="page-title">🚗 欢迎来到宝宝的车车世界！🚒</h1>
+        <p class="page-subtitle">探索奇妙车辆，玩趣味游戏，学习新知识！</p>
+    </header>
+    
+    <div class="main-content">
+        <div class="feature-grid">
+            <div class="car-card">
+                <h3>📖 车辆百科</h3>
+                <p>认识各种酷炫的车辆，了解它们的功能和趣事！</p>
+                <a href="gallery.html" class="btn">探索百科</a>
+            </div>
+            
+            <div class="car-card">
+                <h3>🎮 趣味游戏</h3>
+                <p>挑战你的眼力，猜猜车辆局部图是什么车！</p>
+                <a href="game.html" class="btn btn-secondary">开始游戏</a>
+            </div>
+        </div>
+        
+        <div class="message-section">
+            <h2>给亲爱的宝宝 👶</h2>
+            <p>
+                这个世界充满了奇妙的机器和车辆，每一辆都有自己独特的使命。<br>
+                希望这个小小的网站能带给你探索的乐趣和知识的收获！<br>
+                <strong>—— 爱你的爸爸</strong> ❤️
+            </p>
+        </div>
+    </div>
+</div>
+
+    <script>
+        // 页面加载完成后，默认显示第一辆车的信息
+        document.addEventListener('DOMContentLoaded', function() {
+            showMessage('消防车');
+        });
+    </script>
+</body>
+</html>
